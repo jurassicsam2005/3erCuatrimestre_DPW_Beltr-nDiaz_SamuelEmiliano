@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(33, 6, 82);
+    
+}
+
+header {
+    height: 100px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+h2 {
+    color: white;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.presentacion {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    padding: 40px;
+    border-radius: 40px;
+    color: rgb(247, 241, 241);
+    background-color: white;
+    margin-top: 30px;
+    text-align: center;
+
+} 
+
+.destinos {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    justify-content: center;
+    color: black;
+}
+
+.tarjeta {
+    background: linear-gradient(135deg, #2cb91f, #f179cd);
+    color: rgb(8, 2, 2);
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
+
+.destacado{
+    background: linear-gradient(135deg, #7098ee, #cd5de9);
+    color: rgb(7, 7, 7);
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-top: 20px;
+
+}
+
+.tarjeta.Malecon {
+    background: linear-gradient(135deg, #6895d8, #ec8345);
+    color: rgb(7, 7, 7);
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
+
+.informacion {
+    background: linear-gradient(135deg, #e91818, #bebebb);
+    color: rgb(8, 8, 8);
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    margin-top: 20px;
+
+}
+
+footer {
+    margin-top: 50px;
+    justify-content: center;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+img {
+    margin:auto;
+    display: block;;
+}
+
+    
