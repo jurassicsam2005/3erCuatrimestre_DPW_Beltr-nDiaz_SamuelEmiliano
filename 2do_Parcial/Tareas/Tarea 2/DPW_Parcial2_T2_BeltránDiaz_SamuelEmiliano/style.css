@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box; /**/
+}
+
+body {
+    background-color: rgb(48, 109, 240);
+    color: rgb(173, 18, 204);
+}
+
+header {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    border: 10px solid black;
+}
+
+nav {
+    background-color: lightblue;
+    padding: 10px;
+    border: 10px solid black;
+}
+
+main {
+    border:10px solid black;
+    background-color: lightblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    margin: 20px;
+}
+
+#jugabilidad {
+    background-color: lightblue;
+    padding: 5%;
+    text-align: center;
+    border: 10px solid black;
+}
+
+#exploracion {
+    background-color: lightblue;
+    padding: 5%;
+    text-align: center;
+    border: 10px solid black;
+}
+
+#fauna {
+    background-color: lightblue;
+    padding: 6%;
+    text-align: center;
+    border: 10px solid black;
+}
+
+
+ul {
+    background-color: lightblue;
+    padding: 5%;
+    border: 10px solid black;
+}
+
+#conclusion {
+    background-color: lightblue;
+    padding: 5%;
+    text-align: center;
+    border: 10px solid black;
+}
+
+footer {
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    border: 10px solid black;
+}
+
+/*
+UNIDADES UTILIZADAS EN ESTE CÓDIGO
+
+ px (Píxeles)
+ Se utilizaron en:
+  padding: 20px;
+  padding: 10px;
+  margin: 20px;
+  border: 10px solid black;
+ Los píxeles representan una medida fija en la pantalla.
+
+ % (Porcentaje)
+ Se utilizaron en:
+   padding: 5%;
+   padding: 6%;
+ El porcentaje se calcula respecto al tamaño del elemento contenedor.
+
+ vh (Viewport Height)
+  Se utilizó en:
+  height: 40vh;
+  Significa que la altura del elemento ocupa el 40% de la altura de la ventana del navegador.
+
+
+  vw (Viewport Width)
+   En este código NO se utiliza la unidad vw.
+   Se emplearía, por ejemplo:
+    width: 80vw;
+  donde el ancho ocuparía el 80% del ancho de la ventana del navegador.
+*/
