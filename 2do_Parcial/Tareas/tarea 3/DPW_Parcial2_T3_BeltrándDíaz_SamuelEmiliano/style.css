@@ -1,0 +1,95 @@
+/* ==========================================
+   1. ESTILOS GENERALES
+   ========================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* Verde muy claro para el fondo general */
+    color: #1b5e20;           /* Texto verde oscuro para que se lea bien */
+    line-height: 1.6;
+}
+
+/* ==========================================
+   2. ENCABEZADO (FLEXBOX)
+   ========================================== */
+header {
+    background-color: #2e7d32; /* Verde fuerte para el encabezado */
+    padding: 20px;
+    
+    /* FLEXBOX: Pone el título a la izquierda y el menú a la derecha */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: #ffffff; /* Texto blanco para resaltar */
+}
+
+nav ul {
+    list-style: none;
+    
+    /* FLEXBOX: Pone los enlaces del menú uno al lado del otro */
+    display: flex;
+    gap: 20px; /* Espacio de 20px entre cada enlace */
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a5d6a7; /* Verde claro al pasar el ratón */
+}
+
+/* ==========================================
+   3. SECCIONES DE LA PÁGINA
+   ========================================== */
+main, section {
+    background-color: #c8e6c9; /* Verde claro para las secciones */
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #1b5e20; /* Verde fuerte para los títulos internos */
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #2e7d32;
+    margin-top: 15px;
+}
+
+/* ==========================================
+   4. LISTA DE DINOSAURIOS (FLEXBOX)
+   ========================================== */
+#Dinosaurios ul {
+    list-style: none;
+    margin: 20px 0;
+    
+    /* FLEXBOX: Convierte la lista en filas de elementos */
+    display: flex;
+    flex-wrap: wrap; /* Si no caben en una línea, bajan automáticamente */
+    gap: 10px;       /* Espacio entre los dinosaurios */
+}
+
+#Dinosaurios li {
+    background-color: #ffffff; /* Fondo blanco para que resalten */
+    padding: 8px 15px;
+    border-radius: 5px;
+    
+    /* FLEXBOX: Hace que los nombres se estiren y llenen el espacio de forma limpia */
+    flex-grow: 1; 
+    text-align: center;
+}
+
