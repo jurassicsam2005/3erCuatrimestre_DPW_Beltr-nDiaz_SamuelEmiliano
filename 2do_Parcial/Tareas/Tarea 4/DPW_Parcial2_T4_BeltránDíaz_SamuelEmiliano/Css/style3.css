@@ -1,0 +1,95 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #ffe6f0, #e6f0ff);
+  margin: 0;
+}
+
+header {
+  background: #ff4d6d;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.estrenos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#estrenos-anime {
+  background: linear-gradient(to right, #ffe6f0, #e6f0ff);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  font-family: 'Poppins', sans-serif;
+}
+
+#estrenos-anime h2 {
+  color: #ff4d6d;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.grid-temporadas, .grid-estrenos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+article {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+article:hover {
+  transform: scale(1.05);
+}
+
+article h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+article p {
+  color: #555;
+  font-size: 0.95rem;
+}
+

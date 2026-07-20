@@ -1,0 +1,272 @@
+/*=============================
+VARIABLES
+=============================*/
+
+:root{
+
+    --principal:#1E3A8A;
+    --secundario:#3B82F6;
+    --fondo:#F5F5F5;
+    --texto:#333;
+    --titulo:#111827;
+
+}
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+body{
+
+    background:var(--fondo);
+    color:var(--texto);
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+img{
+
+    width:100%;
+    display:block;
+
+}
+
+/*=============================
+HEADER
+=============================*/
+
+header{
+
+    background:var(--principal);
+    color:white;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px;
+
+}
+
+nav ul{
+
+    display:flex;
+    list-style:none;
+    gap:20px;
+
+}
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+
+}
+
+nav a:hover{
+
+    color:yellow;
+
+}
+
+/*=============================
+GRID PRINCIPAL
+=============================*/
+
+/* Grid principal del sitio */
+
+.contenedor{
+
+    display:grid;
+
+    grid-template-columns:3fr 1fr;
+
+    gap:20px;
+
+    padding:20px;
+
+}
+
+/*=============================
+NOTICIA PRINCIPAL
+=============================*/
+
+/* La noticia principal ocupa más espacio */
+
+.principal{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr;
+
+    gap:20px;
+
+    background:white;
+
+    border:1px solid #ccc;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+}
+
+.principal a{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    background:var(--principal);
+
+    color:white;
+
+    padding:10px 20px;
+
+    text-decoration:none;
+
+}
+
+/*=============================
+NOTICIAS SECUNDARIAS
+=============================*/
+
+/* Esta cuadrícula organiza las noticias secundarias en tres columnas */
+
+.noticias{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:20px;
+
+}
+
+.card{
+
+    background:white;
+
+    border:1px solid #ccc;
+
+    padding:15px;
+
+}
+
+.card h3{
+
+    color:var(--titulo);
+
+    margin:10px 0;
+
+}
+
+.card a{
+
+    display:inline-block;
+
+    margin-top:10px;
+
+    text-decoration:none;
+
+    color:var(--principal);
+
+}
+
+.card:hover{
+
+    transform:scale(1.03);
+
+    transition:.3s;
+
+}
+
+/*=============================
+SIDEBAR
+=============================*/
+
+aside{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+}
+
+.bloque{
+
+    background:white;
+
+    border:1px solid gray;
+
+    padding:20px;
+
+}
+
+.bloque ul li:first-child{
+
+    color:red;
+
+}
+
+.bloque ul li:last-child{
+
+    color:blue;
+
+}
+
+/*=============================
+DESTACADAS
+=============================*/
+
+/* Grid independiente para noticias destacadas */
+
+.destacadas{
+
+    margin-top:40px;
+
+}
+
+.grid-destacadas{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+}
+
+/*=============================
+FOOTER
+=============================*/
+
+footer{
+
+    background:var(--principal);
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+    margin-top:30px;
+
+}
+
+/*=============================
+PSEUDOCLASE
+=============================*/
+
+.card:nth-child(even){
+
+    background:#eef5ff;
+
+}

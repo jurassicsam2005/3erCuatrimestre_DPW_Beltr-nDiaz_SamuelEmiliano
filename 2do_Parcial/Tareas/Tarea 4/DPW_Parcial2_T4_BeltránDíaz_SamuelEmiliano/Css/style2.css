@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+header {
+  background: #0a3d62;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.estrenos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 2rem;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+
+/* 🔹 Distribución general con Grid */
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+/* 🔹 Estilo de listas */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
+}
+
+nav li {
+  background: #ff4d6d;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 6px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+nav li:hover {
+  transform: scale(1.05);
+  background: #e63950;
+}
+
+/* 🔹 Títulos */
+section p:first-child {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
