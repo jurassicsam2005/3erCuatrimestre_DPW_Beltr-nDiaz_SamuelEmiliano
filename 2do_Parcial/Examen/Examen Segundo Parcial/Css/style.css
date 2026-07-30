@@ -1,0 +1,40 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(168, 98, 235);
+    margin: 20px;
+}
+
+h1, p{
+    text-align: end;
+    background-color: rgb(39, 39, 218);
+}
+
+h2{
+    text-align: center;
+
+}
+
+h3 {
+    justify-content: end;
+    align-items: end;
+}
+
+.grid-directorio {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20%;
+}
+
+.card-usuario{
+    background:white;
+    border:1px solid #ccc;
+    padding:20px;
+    border-radius:10px;
+    justify-content: flex-start;
+    align-items:flex-end;
+}
+
+.card-usuario{
+    transform:scale(1.03);
+    transition:.3s;
+}
